@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-height: 250px;
+    max-height: 300px;
+}
+
+.flex-container > div {
+    display: flex;
+    background-color: rgba(33, 31, 31, 0.5);
+    font-size: 30px;
+    margin: 20px;
+    width: 25%;
+    padding: 10px;
+    height: 300px; 
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
