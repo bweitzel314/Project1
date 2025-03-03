@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "image": "images/paris.jpg",
+      "description": "The city of love, famous for the Eiffel Tower.",
+      "details": {
+        "largeImage": "images/paris-large.jpg",
+        "itinerary": ["Visit the Eiffel Tower", "Explore the Louvre"],
+        "map": "https://maps.google.com/..."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Tokyo, Japan",
+      "image": "images/tokyo.jpg",
+      "description": "A vibrant city blending modernity with traditions.",
+      "details": {
+        "largeImage": "images/tokyo-large.jpg",
+        "itinerary": ["Explore Shinjuku", "Visit Senso-ji Temple"],
+        "map": "https://maps.google.com/..."
+      }
+    }
+  ]
+  
