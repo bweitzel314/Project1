@@ -20,7 +20,7 @@ function showDestinations(destinations) {
 
         card.addEventListener('click', function () {
             localStorage.setItem('selectedDestination', JSON.stringify(destination));
-            window.location.href = "destination.html";
+            window.location.href = "index.html";
         });
 
         container.appendChild(card);

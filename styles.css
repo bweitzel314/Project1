@@ -1,4 +1,4 @@
-.flex-container {
+.destinations-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@
     max-height: 300px;
 }
 
-.flex-container > div {
+.destinations-container > div {
     display: flex;
     background-color: rgba(33, 31, 31, 0.5);
     font-size: 30px;
