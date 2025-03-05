@@ -17,17 +17,13 @@ function showDestinations(destinations) {
         <div class="card-content">
             <h3>${destination.name}</h3>
             <p>${destination.description}</p>
-            <h4>Itinerary:</h4>
-            <ul>
-                ${destination.details.itinerary.map(item => `<li>${item}</li>`).join('')}
-            </ul>
-            <button class="book-button" data-id="${destination.id}">Book Now</button>
+            
         </div>
     `;
 
         card.addEventListener('click', function () {
             localStorage.setItem('selectedDestination', JSON.stringify(destination));
-            window.location.href = "index.html";
+            window.location.href = "destination.html";
         });
 
         container.appendChild(card);
