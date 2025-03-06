@@ -20,6 +20,18 @@
         "itinerary": ["Explore Shinjuku", "Visit Senso-ji Temple"],
         "map": "https://maps.google.com/..."
       }
+    },
+    {
+      "id": 3,
+      "name": "Las Vegas, Nevada",
+      "image": "images/lasvegas.jpg",
+      "description": "Internationally renowned major resort city.",
+      "details": {
+        "largeImage": "images/lasvegas-large.jpg",
+        "itinerary": ["Go celeb-spotting in hollywood", "Visit Universal Studios"],
+        "map": "https://maps.google.com/..."
+      }
     }
+    
   ]
   

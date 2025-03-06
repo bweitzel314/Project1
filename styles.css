@@ -9,7 +9,7 @@
 
 .destinations-container > div {
     display: flex;
-    background-color: rgba(33, 31, 31, 0.5);
+    background-color: rgba(185, 177, 177, 0.5);
     flex-direction: column;
     font-size: 30px;
     margin: 20px;

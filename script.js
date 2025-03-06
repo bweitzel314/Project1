@@ -14,16 +14,15 @@ function showDestinations(destinations) {
 
         card.innerHTML = `
         <img src="${destination.image}" alt="${destination.name}">
-        <div class="card-content">
+        <div>
             <h3>${destination.name}</h3>
             <p>${destination.description}</p>
-            
         </div>
     `;
 
         card.addEventListener('click', function () {
             localStorage.setItem('selectedDestination', JSON.stringify(destination));
-            window.location.href = "destination.html";
+            window.location.href = "index.html";
         });
 
         container.appendChild(card);
