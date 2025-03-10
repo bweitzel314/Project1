@@ -7,7 +7,7 @@
     max-height: 400px;
 }
 
-.destinations-container > div {
+.destinations-container>div {
     display: flex;
     background-color: rgba(185, 177, 177, 0.5);
     flex-direction: column;
@@ -15,8 +15,23 @@
     margin: 20px;
     width: 25%;
     padding: 10px;
-    height: 400px; 
+    height: 400px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+}
+
+.index-bg {
+    background-image: url("Images/mainbackground.jpg");
+    background-size: cover;
+}
+
+.destination-bg {
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 48x;
+    text-align: center;
 }

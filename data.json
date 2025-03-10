@@ -18,7 +18,7 @@
       "details": {
         "largeImage": "images/tokyo-large.jpg",
         "itinerary": ["Explore Shinjuku", "Visit Senso-ji Temple"],
-        "map": "https://maps.google.com/..."
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662873.2451231668!2d139.7698121!3d35.50924045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sus!4v1741622267449!5m2!1sen!2sus"
       }
     },
     {
@@ -29,7 +29,7 @@
       "details": {
         "largeImage": "images/lasvegas-large.jpg",
         "itinerary": ["Go celeb-spotting in hollywood", "Visit Universal Studios"],
-        "map": "https://maps.google.com/..."
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.23587250273!2d-115.17499999999998!3d36.125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1741622571622!5m2!1sen!2sus"
       }
     }
     
