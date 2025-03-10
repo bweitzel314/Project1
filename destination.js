@@ -5,16 +5,18 @@ document.addEventListener("DOMContentLoaded", function () {
         const destination = JSON.parse(destinationString);
 
         document.getElementById('destination-name').textContent = destination.name;
-        document.getElementById('destination-image').src = destination.image;
+        document.getElementById('destination-largeImage').src = destination.details.largeImage;
         document.getElementById('destination-description').textContent = destination.description;
 
         const itineraryList = document.getElementById('destination-itinerary');
         itineraryList.innerHTML = "";
+       
         destination.details.itinerary.forEach(item => {
-            const listItem = document.createElement('li');
+            const listItem = document.createElement('ul');
             listItem.textContent = item;
             itineraryList.appendChild(listItem);
         });
+    
         document.getElementById('destination-map').src = destination.details.map;
 
         const destinationInput = document.getElementById('destination');

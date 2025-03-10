@@ -32,6 +32,59 @@
 }
 
 h1{
-    font-size: 48x;
+    font-size: 36px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    font-size: px;
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.destination-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.destination-image-container img {
+    width: 80%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination-map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.destination-map-container iframe{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination-description{
+    font-size: 36x;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
 }
