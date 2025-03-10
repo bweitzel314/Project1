@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const itineraryList = document.getElementById('destination-itinerary');
         itineraryList.innerHTML = "";
-       
+
         destination.details.itinerary.forEach(item => {
             const listItem = document.createElement('ul');
             listItem.textContent = item;
             itineraryList.appendChild(listItem);
         });
-    
+
         document.getElementById('destination-map').src = destination.details.map;
 
         const destinationInput = document.getElementById('destination');
@@ -38,9 +38,11 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("All fields must be filled.");
             return;
         }
-
-        if (new Date(travelDate) < new Date()) {
-            alert("Travel date cannot be before the current date.");
+        const today = new Date();
+        today.setDate(today.getDate() - 1);
+        today.setHours(0, 0, 0, 0);
+        if (new Date(travelDate) < today) {
+            alert("Travel date cannot be in the past. Please select a new date.");
             return;
         }
 
@@ -48,12 +50,13 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Number of travelers must be at least 1.");
             return;
         }
-        else{
+        else {
             alert("Tour Booked!");
+            return;
         }
     });
 });
 
 function goBack() {
-    window.location.href = "index.html";
+    location.replace("index.html");
 }
