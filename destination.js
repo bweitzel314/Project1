@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
             listItem.textContent = item;
             itineraryList.appendChild(listItem);
         });
+        document.getElementById('destination-map').src = destination.details.map;
     }
 });
 
