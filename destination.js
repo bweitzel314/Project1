@@ -16,6 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
             itineraryList.appendChild(listItem);
         });
         document.getElementById('destination-map').src = destination.details.map;
+        
+        const destinationInput = document.getElementById('destination');
+        if (destinationInput) {
+            destinationInput.value = destination.name;
+        }
+    } else {
+        document.body.innerHTML = "<p>No destination selected.</p>";
     }
 });
 
