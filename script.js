@@ -10,7 +10,6 @@ function showDestinations(destinations) {
 
     destinations.forEach(destination => {
         const card = document.createElement('div');
-        card.classList.add('destination-card');
 
         card.innerHTML = `
         <img src="${destination.image}" alt="${destination.name}">

@@ -86,15 +86,42 @@
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 42px;
+    font-weight: bold;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 1.5px; 
+    margin: 20px auto;
+    width: fit-content; 
+    padding-bottom: 10px;
+    color: #333;
 }
 
+
+h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #007BFF;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+
 h2 {
-    font-size: 36px;
+    font-size: 28px;
+    font-weight: bold;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 40px auto 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #007BFF;
+    width: fit-content;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
