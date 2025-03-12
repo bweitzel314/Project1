@@ -1,37 +1,122 @@
 [
-    {
-      "id": 1,
-      "name": "Paris, France",
-      "image": "images/paris.jpg",
-      "description": "The city of love, famous for the Eiffel Tower.",
-      "details": {
-        "largeImage": "images/paris-large.jpg",
-        "itinerary": ["Visit the Eiffel Tower", "Explore the Louvre"],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.91842853933!2d2.3470340999999997!3d48.8588549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2sus!4v1741576407589!5m2!1sen!2sus"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Tokyo, Japan",
-      "image": "images/tokyo.jpg",
-      "description": "A vibrant city blending modernity with traditions.",
-      "details": {
-        "largeImage": "images/tokyo-large.jpg",
-        "itinerary": ["Explore Shinjuku", "Visit Senso-ji Temple"],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662873.2451231668!2d139.7698121!3d35.50924045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sus!4v1741622267449!5m2!1sen!2sus"
-      }
-    },
-    {
-      "id": 3,
-      "name": "Las Vegas, Nevada",
-      "image": "images/lasvegas.jpg",
-      "description": "Internationally renowned major resort city.",
-      "details": {
-        "largeImage": "images/lasvegas-large.jpg",
-        "itinerary": ["Go celeb-spotting in hollywood", "Visit Universal Studios"],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.23587250273!2d-115.17499999999998!3d36.125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1741622571622!5m2!1sen!2sus"
-      }
+  {
+    "id": 1,
+    "name": "Paris, France",
+    "image": "images/paris.jpg",
+    "description": "The city of love, famous for the Eiffel Tower.",
+    "details": {
+      "largeImage": "images/paris-large.jpg",
+      "itinerary": [
+        "Visit the Eiffel Tower",
+        "Explore the Louvre",
+        "Walk along the Champs-Élysées",
+        "Enjoy a Seine River Cruise",
+        "Visit the Notre-Dame Cathedral",
+        "Experience Montmartre and the Sacré-Cœur",
+        "Explore the Catacombs of Paris",
+        "Try authentic French pastries at a Parisian café"
+      ],
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.91842853933!2d2.3470340999999997!3d48.8588549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2sus!4v1741576407589!5m2!1sen!2sus"
     }
-    
-  ]
-  
+  },
+  {
+    "id": 2,
+    "name": "Tokyo, Japan",
+    "image": "images/tokyo.jpg",
+    "description": "A vibrant city blending modernity with traditions.",
+    "details": {
+      "largeImage": "images/tokyo-large.jpg",
+      "itinerary": [
+        "Explore Shinjuku",
+        "Visit Senso-ji Temple",
+        "Experience Shibuya Crossing",
+        "Tour the Meiji Shrine",
+        "Visit teamLab Borderless (digital art museum)",
+        "Try authentic sushi at Tsukiji Outer Market",
+        "Shop in Akihabara (Electronics & Anime district)",
+        "Walk through Ueno Park and visit its museums"
+      ],
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662873.2451231668!2d139.7698121!3d35.50924045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sus!4v1741622267449!5m2!1sen!2sus"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Las Vegas, Nevada",
+    "image": "images/lasvegas.jpg",
+    "description": "Internationally renowned major resort city.",
+    "details": {
+      "largeImage": "images/lasvegas-large.jpg",
+      "itinerary": [
+        "Go celeb-spotting in Hollywood",
+        "Visit Universal Studios",
+        "Walk the Las Vegas Strip",
+        "See the Bellagio Fountains show",
+        "Try your luck at a casino",
+        "Experience Fremont Street’s light show",
+        "Visit the Neon Museum",
+        "Take a day trip to the Grand Canyon"
+      ],
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.23587250273!2d-115.17499999999998!3d36.125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1741622571622!5m2!1sen!2sus"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Rome, Italy",
+    "image": "images/rome.jpg",
+    "description": "The Eternal City, rich in history and stunning architecture.",
+    "details": {
+      "largeImage": "images/rome-large.jpg",
+      "itinerary": [
+        "Explore the Colosseum",
+        "Visit Vatican City and St. Peter’s Basilica",
+        "Throw a coin in the Trevi Fountain",
+        "Walk through the Roman Forum",
+        "Discover the Pantheon",
+        "Enjoy authentic Italian gelato",
+        "Take a stroll in Piazza Navona",
+        "Visit the Sistine Chapel and admire Michelangelo’s frescoes"
+      ],
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.7643209635!2d12.5359979!3d41.9100711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C%20Metropolitan%20City%20of%20Rome%20Capital%2C%20Italy!5e0!3m2!1sen!2sus!4v1741817507705!5m2!1sen!2sus"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sydney, Australia",
+    "image": "images/sydney.jpg",
+    "description": "A stunning harbor city with iconic landmarks and beautiful beaches.",
+    "details": {
+      "largeImage": "images/sydney-large.jpg",
+      "itinerary": [
+        "Climb the Sydney Harbour Bridge",
+        "Visit the Sydney Opera House",
+        "Relax at Bondi Beach",
+        "Explore Darling Harbour",
+        "Take a ferry to Manly Beach",
+        "Visit Taronga Zoo and see Australian wildlife",
+        "Stroll through the Royal Botanic Gardens",
+        "Explore The Rocks historic district"
+      ],
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424141.6978944982!2d150.93197474999997!3d-33.84824395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sus!4v1741817578709!5m2!1sen!2sus"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Cairo, Egypt",
+    "image": "images/cairo.jpg",
+    "description": "A city filled with ancient wonders and rich cultural history.",
+    "details": {
+      "largeImage": "images/cairo-large.jpg",
+      "itinerary": [
+        "Visit the Pyramids of Giza",
+        "Explore the Great Sphinx",
+        "Discover the Egyptian Museum",
+        "Wander through Khan El Khalili Bazaar",
+        "Take a cruise on the Nile River",
+        "Explore Coptic Cairo and its historic churches",
+        "Visit the Al-Azhar Mosque",
+        "See the Citadel of Saladin and the Mosque of Muhammad Ali"
+      ],
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.37451031098!2d31.258464350000004!3d30.059488450000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2sus!4v1741817625403!5m2!1sen!2sus"
+    }
+  }
+]
